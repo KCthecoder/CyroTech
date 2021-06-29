@@ -1,0 +1,222 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	
+	<script src="javascripts/zxcvbn.js" type="text/javascript" async=""></script>
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+	<script>if (top.location != location)
+	 {
+   	 	top.location.href = document.location.href ;
+	 }	
+	</script>
+	<title>Encrypt and decrypt text online</title>
+	<meta name="viewport"><link href="stylesheets/bootstrap.min1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/bootstrap-responsive.min1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/desktop1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/contactable1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/site1a18.css?2.3" rel="stylesheet">
+	<meta name="description" content="Encipher.It is a simple way to protect your sensitive data. You can encrypt text messages, E-mail and files by AES encription with password">
+	<script>var _gaq = _gaq || [];
+	 _gaq.push(['_setAccount', 'UA-17946320-4']);
+	 _gaq.push(['_trackPageview']);
+		(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	 })();
+	</script>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	
+		<body data-spy="scroll" data-target=".bs-docs-sidebar">
+			
+		<div class="span7">
+			<div class="content-text"><h2>Encrypt your text online</h2>
+				<div id="desktop">
+					<!--<Main>control</Main>-->
+					<div class="encipher-control">
+						<div class="composer">
+							<div class="textarea" style="bottom: 0px;">
+								<div class="save-panel" style="display: none;"><h2 class="file-info">File: SECRET.txt, 0 bytes (text/plain)</h2>
+									<button class="save-file icon icon-save-file" style="display: none;">Save file</button>
+									<button class="save-folder icon icon-save-folder" style="display: none;">Save all</button>
+								</div>
+								<div class="editor-panel" style="display: block;">
+									<textarea autofocus="true" class="editor"></textarea>
+									<div class="main-hint" style="display: none;">
+										<p>Type a message here to encrypt it</p>
+										<p>Paste the encrypted text or link here to decrypt it</p>
+									</div>
+								</div>
+							</div>
+							<div id="desktop"><!--<Main>control</Main>--><div class="encipher-control"><div class="composer"><div class="textarea" style="bottom: 0px;"><div class="save-panel" style="display: none;"><h2 class="file-info">File: SECRET.txt, 0 bytes (text/plain)</h2><button class="save-file icon icon-save-file" style="display: none;">Save file</button><button class="save-folder icon icon-save-folder" style="display: none;">Save all</button></div><div class="editor-panel" style="display: block;"><textarea autofocus="true" class="editor"></textarea><div class="main-hint"><p>Type a message here to encrypt it</p><p>Paste the encrypted text or link here to decrypt it</p></div></div></div><div class="files" style="display: none;"><table class="table table-hover"><thead class="files-header"></thead><tbody class="files-list"><tr class="selected"><td class="filecheck checked">&nbsp;</td>
+<td class="filename">SECRET.txt</td><td class="filesize">0 bytes</td>
+<td class="filetype">text/plain</td></tr></tbody></table></div></div><div class="toolbar"><div class="toolbar-right"><div class="btn-group dropup"><button data-toggle="dropdown" class="dropdown-toggle icon icon-add-content">Advanced</button><ul class="dropdown-menu"><li><button class="close-safe icon icon-close-safe" style="display: none;">New session</button></li><li><button class="save-file icon icon-save-file" style="display: none;">Save file</button></li><li><button class="save-folder icon icon-save-folder" style="display: none;">Save all</button></li><li><button class="delete icon icon-delete" style="display: none;">Remove file</button></li><li><button class="file icon icon-add-file">Attach file</button></li><li><button class="new icon icon-add-message">Attach text</button></li></ul></div><button class="open-safe icon icon-open-safe">Decrypt file</button><button class="encrypt icon icon-encrypt disabled" disabled="disabled">Encipher It</button><button style="display: none;" class="decrypt icon icon-decrypt">Decipher It</button></div></div></div><!--<Templates></Templates>--><div id="encipher-dlg" style="display: none;" data-backdrop="static" class="encipher-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>Enter the encryption password</h3></div><div class="modal-body"><form class="form-horizontal passphrase"><div class="control-group"><label for="password" class="control-label">Encryption Password</label><div class="controls"><div class="input-append"><input type="text" class="password password-open" style="display: none;"><input id="password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span></div></div></div><div class="control-group"><div class="controls"><div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit</div></div></div><div class="controls password-status">Effective key length</div></div><div class="control-group"><label for="use-pgp" class="control-label">PGP compatible</label><div class="controls"><input id="use-pgp" type="checkbox" rel="tooltip" title="" data-original-title="Use RFC4880 message format and GnuPG kernel"></div></div></form></div><div class="modal-footer"><button class="icon icon-encrypt do-encrypt" style="display: none;">Encipher It</button><button class="icon icon-share do-share"><p>Share online for</p><select id="cloud-expire"><option value="0">forever</option><option value="31557600" selected="yes">1 year</option><option value="2629800">1 month</option><option value="604800">1 week</option><option value="86400">1 day</option><option value="3600">1 hour</option><option value="300">5 min</option></select></button><button class="icon icon-save-file do-save">Save To File</button><input type="file" style="display: none;" id="save-enc-file" name="save-enc-file" nwsaveas="true"></div></div><div style="display: none;" data-backdrop="static" class="decipher-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Decipher It</h3></div><div class="modal-body"><div id="tab-file" class="form-horizontal tab-pane"><div class="control-group"><label for="dec-password" class="control-label">Enter the decryption password</label><div class="controls"><div class="input-append"><input type="text" class="password password-open" style="display: none;"><input id="dec-password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span></div></div></div><div class="control-group"><div class="controls"><div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit</div></div></div></div></div></div><div class="modal-footer"><button class="right decipher-button icon icon-decrypt">Decrypt</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button></div></div><div style="display: none;" class="modal-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title"></h3></div><div class="modal-body"><p class="modal-content"></p></div><div class="modal-footer"><button class="icon icon-ok btn-success ok-button">OK</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button></div></div><div style="display: none;" class="progress-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close x-close-button">×</button><h3 class="modal-title"></h3></div><div class="modal-body"><p class="modal-content"></p><div class="progress"><div id="encrypt-progress" class="bar bar-info"></div><div id="upload-progress" class="bar bar-success"></div></div></div><div class="modal-footer"><button class="icon icon-cancel cancel-button">Cancel</button></div></div><div style="display: none;" class="copy-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Enciphered!</h3></div><div class="modal-body"><textarea readonly="readonly" class="copy-content"></textarea></div><div id="copy-container" class="modal-footer"><button id="copy-button" class="inline copy-button icon icon-copy">Copy</button><button class="inline gmail icon icon-gmail">Send&nbsp;to&nbsp; Gmail</button></div></div><div style="display: none;" data-backdrop="static" data-keyboard="false" class="access-dlg modal"><div class="modal-header"><h3>Trial version</h3></div><div class="modal-body"><p class="modal-content"></p><p></p><form id="serial-form" class="form-horizontal"><div class="control-group"><label for="access-code" class="control-label">Enter serial key from the confirmation email</label><div class="controls"><input id="access-code" type="text" class="span4"></div></div></form></div><div class="modal-footer"><button class="trial-button icon icon-ok">Continue to application</button><button class="download-button icon icon-encrypt">Buy license</button><button class="submit-button icon icon-decrypt">Unlock full version</button></div></div><div style="display: none" class="unsupported-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>This feature is not available online</h3></div><div class="modal-body"><p>Please download, install and run the Encipher It application to encrypt files.</p></div><div class="modal-footer"><button class="download-button icon icon-download">Download</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button></div></div><div style="display: none" class="intro-dlg modal-big"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>Keep your private information private: Encipher it</h3></div><div class="modal-body intro-body"><div><p></p><h4>Protect your text messages, web mail, or files with a password and strong AES encryption.</h4><p></p><p>Encryption with encipher.it is the simplest way to protect your sensitive data. You can encrypt your private info and only the recipient can decrypt it with the correct password.</p><p></p><h5>Please note:&nbsp;</h5><p></p><p><span><b>It much safer</b> to download and install a client application, because it only requires you to trust our internet site once (when you download the software), whereas you trust the online version each time you visit the site.</span></p></div><div><input id="suppress-about" type="checkbox" style="margin-top: -2px;"><label for="suppress-about" style="display: inline-block"><b>&nbsp;Do not show this notice next time</b></label></div></div><div class="modal-footer"><ul id="social" rel="tooltip" title="" class="social-buttons toolbar-left" data-original-title="Two click for more privacy: Social buttons will be loaded once you click here."><li><a href="https://twitter.com/share" data-text="Encipher.It" data-url="https://encipher.it" data-count="vertical" rel="nofollow" target="_blank" class="socialite twitter-share"><span class="vhidden"></span></a></li><li><a href="https://plus.google.com/share?url=https://encipher.it" data-size="tall" data-href="https://encipher.it" rel="nofollow" target="_blank" class="socialite googleplus-one"><span class="vhidden"></span></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://encipher.it&amp;t=Encipher.It" data-href="https://encipher.it" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank" class="socialite facebook-like"><span class="vhidden"></span></a></li></ul><ul class="social-buttons toolbar-right"><li><button onclick="_gaq.push(['_trackEvent', 'Internal', 'Popup', 'Online version']);" class="enter-button icon icon-encrypt">Encrypt Online</button></li><li><button data-plan="free" onclick="_gaq.push(['_trackEvent', 'Internal', 'Popup', 'Install app']);" class="ask download-button icon icon-download">Install Application</button></li></ul></div></div><!--<Hidden>fields for system purposes</Hidden>--><input type="file" style="display: none;" id="files" name="files[]" multiple="true"><input type="file" style="display: none;" id="save-file" name="save-file" nwsaveas="true"><input type="file" style="display: none;" id="save-folder" name="save-folder" nwdirectory="true"><input type="file" style="display: none;" id="open-safe" name="open-safe"></div>
+							<div class="files" style="display: none;">
+										<table class="table table-hover"><thead class="files-header"></thead>
+											<tbody class="files-list">
+												<tr class="selected">
+												<td class="filecheck checked">&nbsp;</td>
+												<td class="filename">SECRET.txt</td><td class="filesize">0 bytes</td>
+												<td class="filetype">text/plain</td>
+											    </tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="toolbar">
+									<div class="toolbar-right">
+										<div class="btn-group dropup">
+											<button data-toggle="dropdown" class="dropdown-toggle icon icon-add-content">Advanced</button>
+											<ul class="dropdown-menu">
+												<li><button class="close-safe icon icon-close-safe" style="display: none;">New session</button></li>
+												<li><button class="save-file icon icon-save-file" style="display: none;">Save file</button></li>
+												<li><button class="save-folder icon icon-save-folder" style="display: none;">Save all</button></li>
+												<li><button class="delete icon icon-delete" style="display: none;">Remove file</button></li>
+												<li><button class="file icon icon-add-file">Attach file</button></li>
+												<li><button class="new icon icon-add-message">Attach text</button></li>
+											</ul>
+										</div>
+										<button class="encrypt icon icon-encrypt disabled" disabled="disabled">Encipher It</button>
+										<button style="display: none;" class="decrypt icon icon-decrypt">Decipher It</button>
+									</div>
+								</div>
+							</div><!--<Templates></Templates>-->
+							<div id="encipher-dlg" style="display: none;" data-backdrop="static" class="encipher-dlg modal">
+								<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>Enter the encryption password</h3>
+								</div>
+								<div class="modal-body"><form class="form-horizontal passphrase">
+									<div class="control-group"><label for="password" class="control-label">Encryption Password</label>
+										<div class="controls">
+											<div class="input-append"><input type="text" class="password password-open" style="display: none;">
+												<input id="password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span>
+											</div>
+										</div>
+									</div>
+									<div class="control-group"><div class="controls">
+										<div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit
+										</div>
+									</div>
+								</div>
+								<div class="controls password-status">Effective key length</div>
+							</div>
+							
+						</form>
+					</div>
+					<div class="modal-footer"><button class="icon icon-encrypt do-encrypt" style="display: none;">Encipher It</button>
+						<button class="icon icon-share do-share"><p>Share online for</p>
+							<select id="cloud-expire">
+							<option value="0">forever</option>
+							<option value="31557600" selected="yes">1 year</option>
+							<option value="2629800">1 month</option>
+							<option value="604800">1 week</option>
+							<option value="86400">1 day</option>
+							<option value="3600">1 hour</option>
+							<option value="300">5 min</option>
+							</select>
+						</button>
+						<button class="icon icon-save-file do-save">Save To File</button>
+						<input type="file" style="display: none;" id="save-enc-file" name="save-enc-file" nwsaveas="true">
+					</div>
+				</div>
+				<div style="display: none;" data-backdrop="static" class="decipher-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Decipher It</h3>
+				</div>
+				<div class="modal-body">
+					<div id="tab-file" class="form-horizontal tab-pane">
+						<div class="control-group"><label for="dec-password" class="control-label">Enter the decryption password</label>
+							<div class="controls">
+								<div class="input-append"><input type="text" class="password password-open" style="display: none;"><input id="dec-password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span>
+								</div>
+							</div>
+						</div>
+						<div class="control-group"><div class="controls">
+							<div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer"><button class="right decipher-button icon icon-decrypt">Decrypt</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button>
+		</div>
+	</div>
+	<div style="display: none;" class="modal-dlg modal">
+		<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title"></h3>
+		</div>
+		<div class="modal-body"><p class="modal-content"></p>
+		</div>
+		<div class="modal-footer"><button class="icon icon-ok btn-success ok-button">OK</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button>
+		</div>
+	</div>
+	<div style="display: none;" class="progress-dlg modal">
+		<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close x-close-button">×</button><h3 class="modal-title"></h3></div>
+		<div class="modal-body"><p class="modal-content"></p>
+			<div class="progress">
+				<div id="encrypt-progress" class="bar bar-info"></div>
+				<div id="upload-progress" class="bar bar-success"></div>
+			</div>
+		</div>
+		<div class="modal-footer"><button class="icon icon-cancel cancel-button">Cancel</button></div>
+	</div>
+	<div style="display: none;" class="copy-dlg modal">
+		<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Enciphered!</h3></div>
+		<div class="modal-body"><textarea readonly="readonly" class="copy-content"></textarea></div>
+		<div id="copy-container" class="modal-footer">
+			<button id="copy-button" class="inline copy-button icon icon-copy">&nbsp; Copy</button>
+		</div>
+			
+			
+		</div>
+
+	</div>
+	<div style="display: none;" data-backdrop="static" data-keyboard="false" class="access-dlg modal">
+		<div class="modal-header"><h3>Trial version</h3>
+		</div>
+		<div class="modal-body"><p class="modal-content"></p><p></p>
+			<form id="serial-form" class="form-horizontal">
+				<div class="control-group"><label for="access-code" class="control-label">Enter serial key from the confirmation email</label>
+					<div class="controls"><input id="access-code" type="text" class="span4">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="modal-footer"><button class="trial-button icon icon-ok">Continue to application</button><button class="download-button icon icon-encrypt">Buy license</button><button class="submit-button icon icon-decrypt">Unlock full version</button></div></div><div style="display: none;" class="unsupported-dlg modal" aria-hidden="true"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>This feature is not available online</h3></div><div class="modal-body"><p>Please download, install and run the Encipher It application to encrypt files.</p></div><div class="modal-footer"><button class="download-button icon icon-download">Download</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button></div></div><div style="display: none" class="intro-dlg modal-big"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>Keep your private information private: Encipher it</h3></div><div class="modal-body intro-body"><div><p></p><h4>Protect your text messages, web mail, or files with a password and strong AES encryption.</h4><p></p><p>Encryption with encipher.it is the simplest way to protect your sensitive data. You can encrypt your private info and only the recipient can decrypt it with the correct password.</p><p></p><h5>Please note:&nbsp;</h5><p></p><p><span><b>It much safer</b> to download and install a client application, because it only requires you to trust our internet site once (when you download the software), whereas you trust the online version each time you visit the site.</span></p></div><div><input id="suppress-about" type="checkbox" style="margin-top: -2px;"><label for="suppress-about" style="display: inline-block"><b>&nbsp;Do not show this notice next time</b></label></div></div><div class="modal-footer"><ul id="social" rel="tooltip" title="" class="social-buttons toolbar-left" data-original-title="Two click for more privacy: Social buttons will be loaded once you click here."><li><a href="https://twitter.com/share" data-text="Encipher.It" data-url="https://encipher.it" data-count="vertical" rel="nofollow" target="_blank" class="socialite twitter-share"><span class="vhidden"></span></a></li><li><a href="https://plus.google.com/share?url=https://encipher.it" data-size="tall" data-href="https://encipher.it" rel="nofollow" target="_blank" class="socialite googleplus-one"><span class="vhidden"></span></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://encipher.it&amp;t=Encipher.It" data-href="https://encipher.it" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank" class="socialite facebook-like"><span class="vhidden"></span></a></li></ul><ul class="social-buttons toolbar-right"><li><button onclick="_gaq.push(['_trackEvent', 'Internal', 'Popup', 'Online version']);" class="enter-button icon icon-encrypt">Encrypt Online</button></li><li><button data-plan="free" onclick="_gaq.push(['_trackEvent', 'Internal', 'Popup', 'Install app']);" class="ask download-button icon icon-download">Install Application</button></li></ul></div></div><!--<Hidden>fields for system purposes</Hidden>--><input type="file" style="display: none;" id="files" name="files[]" multiple="true"><input type="file" style="display: none;" id="save-file" name="save-file" nwsaveas="true"><input type="file" style="display: none;" id="save-folder" name="save-folder" nwdirectory="true"><input type="file" style="display: none;" id="open-safe" name="open-safe"></div></div></div></div><div class="row-fluid blue2"><center><h2>Freeware AES encryption tool</h2></center></div><div class="row-fluid"><div class="content-text"><div class="span5"><div class="row-fluid"><div class="span6"><form class="subscription" method="post" action="https://cp.unisender.com/en/subscribe?hash=54es73jiq17my94ayejieqjdp5o" onsubmit="return us_.onSubmit(this);" us_mode="embed">
+<div><input type="text" onfocus="if (this.value=='Enter your email') this.value = ''" value="Enter your email" name="email" _required="1" _validator="email" _label="E-mail" class="us_input"></div>
+<div><input type="submit" value="Learn about encryption" class="us_submit" onclick="_gaq.push(['_trackEvent', 'Subscription', 'Form', 'Homepage']);"></div>
+<input type="hidden" name="charset" value="">
+<input type="hidden" name="default_list_id" value="3247034">
+<input type="hidden" name="overwrite" value="2">
+</form><p>Learn something new about what encryption is and how to encrypt text, email and files from our newsletter.</p></div><div class="span6 load-social"><ul rel="tooltip" title="" class="social-buttons" data-original-title="Two click for more privacy: Social buttons will be loaded once you click here."><li><a href="https://twitter.com/share" data-text="Encipher.It" data-url="https://encipher.it" data-count="vertical" rel="nofollow" target="_blank" class="socialite twitter-share"></a></li><li><a href="https://plus.google.com/share?url=https://encipher.it" data-size="tall" data-href="https://encipher.it" rel="nofollow" target="_blank" class="socialite googleplus-one"></a></li><li><a href="https://www.facebook.com/sharer.php?u=https://encipher.it&amp;t=Encipher.It" data-href="https://encipher.it" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" rel="nofollow" target="_blank" class="socialite facebook-like"></a></li></ul><p>Recommend us to your friends</p></div></div></div><div class="span7"><div class="span6"><h2>How to encrypt</h2><ol><li>Enter your secret message in the form</li><li> If you want to<a href="file-encryption.html"> encrypt the files</a>, download the desktop version</li><li>Press the "Encipher It" button</li><li>Enter a password to encrypt your message. Please use long passwords, for example, <a href="https://xkcd.com/936/" target="_new">a few random words</a>.</li><li>The browser encrypts your message with 256-bit AES encryption on your side, without sending us your original text or your password</li><li>Optionally, save the encrypted message or file to an online file storage and get a short link to access it online or share it</li><li>If needed, provide the password to other party via a safe communication channel.</li></ol></div><div class="span6"><h2>How to decrypt</h2><ol><li>When you receive encrypted text or open short link, do one of the following:</li><ul><li>Go to <a href="index.html">https://encipher.it</a> and paste the message (or just click on the short link)</li><li>Use&nbsp;<a href="email-encryption.html#install" onclick="_gaq.push(['_trackEvent', 'Internal', 'Bookmarklet', 'Frontpage-text']);">the bookmarklet</a>&nbsp;or download&nbsp;<a href="https://chrome.google.com/webstore/detail/encipher-it/fimncfoplhkgepigcpgjheeccdhemcfj" onclick="_gaq.push(['_trackEvent', 'External', 'Extension', 'Frontpage-text']);">the Chrome extension</a> to decrypt the message in Gmail or other webmail</li><li>Download <a href="software.html" onclick="_gaq.push(['_trackEvent', 'Internal', 'Desktop', 'Frontpage-text']);">the desktop version</a> to decrypt the files</li></ul><li>Press the "Decipher It" button</li><li>Enter the password</li><li>Well done, you have successfully gained access to the secret message or files.</li></ol></div></div></div></div><script></script><footer class="footer"><div class="container"><p>If you have questions, <a href="#" class="feedback">contact us here</a> or email us at<a href="mailto:support@encipher.it"> support@encipher.it</a>.</p><ul class="footer-links"><li><a href="tos.html">Privacy and refund policy.         </a></li></ul></div></footer><!-- Client config--><script type="text/javascript" src="javascripts/settings1a18.js?2.3"></script><!-- 3d party--><script type="text/javascript" src="javascripts/jquery.min1a18.js?2.3"></script><script type="text/javascript" src="javascripts/underscore.min1a18.js?2.3"></script><script type="text/javascript" src="javascripts/backbone.min1a18.js?2.3"></script><script type="text/javascript" src="javascripts/global1a18.js?2.3"></script><script type="text/javascript" src="javascripts/bootstrap.min1a18.js?2.3"></script><script type="text/javascript" src="javascripts/jquery.validate.pack1a18.js?2.3"></script><script type="text/javascript" src="javascripts/jquery.contactable1a18.js?2.3"></script><script type="text/javascript" src="javascripts/socialite1a18.js?2.3"></script><!-- Flash used for access to clipboard--><script type="text/javascript" src="javascripts/flashdetect.min1a18.js?2.3"></script><script type="text/javascript" src="javascripts/ZeroClipboard.min1a18.js?2.3"></script><!-- Encipher 1.x code--><script type="text/javascript" src="javascripts/encipher1a18.js?2.3"></script><script type="text/javascript" src="javascripts/AES1a18.js?2.3"></script><script type="text/javascript" src="javascripts/sha11a18.js?2.3"></script><script type="text/javascript" src="javascripts/pbkdf21a18.js?2.3"></script><script type="text/javascript" src="javascripts/base641a18.js?2.3"></script><script type="text/javascript" src="javascripts/utf81a18.js?2.3"></script><!-- Encipher 2.x code--><script type="text/javascript" src="javascripts/password1a18.js?2.3"></script><script type="text/javascript" src="javascripts/zxcvbn-async1a18.js?2.3"></script><script type="text/javascript" src="javascripts/global1a18.js?2.3"></script><script type="text/javascript" src="javascripts/models1a18.js?2.3"></script><script type="text/javascript" src="javascripts/views1a18.js?2.3"></script><!-- Order form--><script type="text/javascript" src="javascripts/order1a18.js?2.3"></script><script>$('#mainmenu li').removeClass('active');
+$('#mainmenu li a[href="' + document.location.pathname + '"]').parent().addClass('active');
+$('.social-buttons').one("click", function() {
+    Socialite.load($(this)[0]);
+    $(this).tooltip('destroy');
+});
+$('.play-button').click( function() {
+    $('.play-button').remove();
+    $('#video').replaceWith('<iframe width="440" height="280" src="https://www.youtube.com/embed/ItTkczs_cRA" frameborder="0" allowfullscreen></iframe>');
+    $('.tooltip').remove();
+});</script>
+<!-- Mirrored from encipher.it/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jan 2018 16:40:53 GMT -->
+</body></html>
+
+
+
+<div style="" class="copy-dlg modal in" aria-hidden="false">
+	<div class="modal-header">
+		<button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Enciphered!</h3>
+	</div>
+	<div class="modal-body">
+		<textarea readonly="readonly" class="copy-content" style="height: 80px;">
+			
+		</textarea>
+	</div>
+	<div id="copy-container" class="modal-footer">
+		<button id="copy-button" class="inline copy-button icon icon-copy">Copy</button>
+		<button class="inline gmail icon icon-gmail">Send&nbsp;to&nbsp; Gmail</button>
+		<div style="position: absolute; left: 492px; top: 8px; width: 200px; height: 64px; z-index: 99;">
+			<embed id="ZeroClipboardMovie_1" src="/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" width="200" height="64" name="ZeroClipboardMovie_1" allowscriptaccess="always" allowfullscreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=1&amp;width=200&amp;height=64" wmode="transparent">
+			</div>
+		</div>
+	</div>
+	

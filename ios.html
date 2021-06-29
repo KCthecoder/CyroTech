@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" manifest="/cache.manifest">
+<!-- Mirrored from encipher.it/ios by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jan 2018 16:41:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>iOS version</title><meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable: no;"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><link rel="apple-touch-icon" href="favicon.png"/><link rel="shortcut icon" href="favicon.ico"/><link rel="stylesheet" href="stylesheets/ios.css"/><script type="text/javascript" src="javascripts/jquery.js"></script><script type="text/javascript" src="javascripts/iscroll-lite.js"></script><script>var encipher_it = (function(){document.body.appendChild(document.createElement('script')).src='javascripts/inject.vios.js';});
+$(document).ready( function() {
+  var helpScroll = new iScroll('wrapper');
+  var txtdef = "Sample text";
+  var txtbdy = $('#txtbdy').val(txtdef);
+  txtbdy.click( function() {
+    if( txtbdy.val() == txtdef ) {
+      txtbdy.val("").unbind();
+    };
+  });
+  $('#clear').click( function() {
+      txtbdy.val("").unbind();
+  });
+  $('#help').click( function() {
+      $('#main').hide();
+      $('#sidebar').show().css({"width":"100%"});
+  });
+  $('#back').click( function() {
+      $('#main').show();
+      $('#sidebar').hide();
+  });
+  
+});</script><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17946320-4']);
+_gaq.push(['_trackPageview']);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></head><body><div id="wrap"><div id="main"><div class="header"><a id="help" href="#" class="left">Help</a><h1 class="title">Encipher It</h1><a id="clear" href="#" class="right">Clear</a></div><div class="content"><textarea id="txtbdy" name="text" class="box-white"></textarea><p><a href="#" onclick="encipher_it()" class="button">Encipher It</a></p></div></div><div id="sidebar"><div class="header"><h1 class="title">Instruction</h1><a id="back" href="#" class="right">Back</a></div><div id="wrapper" class="content"><div><ul class="nav"><li><a href="#">How To Install</a></li></ul><p>You can add this page to your iphone or ipad Home screen (use safari menu) and then encrypt and decrypt messages without internet access.</p><ul class="nav"><li><a href="#">How To Add Bookmarklet</a></li></ul><p><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='javascripts/inject.vios.js';})();">Encipher.it</a> bookmarklet is a snippet of code that you can store in your browser bookmarks to encrypt email, or any block of text you enter on a website.
+Visit site for the <a href="index.html#video">video tutorial.</a></p><p> 
+Adding bookmarklet is a little bit tricky on apple devices, due to iOS limitations.
+To do this, please follow the next steps:</p><p><b><a href="#javascript:(function(){document.body.appendChild(document.createElement('script')).src='javascripts/inject.vios.js';})();" onclick="document.title=&quot;Encipher.It&quot;">Tap here </a></b><span> - this will change page title and append bookmarklet into address bar</span></p><p><span>Select </span><b>Add Bookmark</b></p><p><span>Tap </span><strong>Save</strong></p><p><span>Tap the Bookmarks button</span></p><p><span>Locate just created </span><b>Encipher.It </b><span>bookmark in the list.</span></p><p><span>Tap </span><b>Edit </b><span>and then tap on the bookmark</span></p><p><span>Tap in the second field (it begins with 'http').</span><span>You want to edit the beginning of this text, so tap and drag the loupe all the way to the left.</span></p><p><span>Place the editing point between the "#" and the "j" then delete all to the beginning of the line</span></p><p><span>When you are done, your bookmark should begin from 'javascript' string. Save and use!</span></p></div></div></div></div></body>
+<!-- Mirrored from encipher.it/ios by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Jan 2018 16:41:28 GMT -->
+</html>

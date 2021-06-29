@@ -1,0 +1,1 @@
+Cannot GET /sha1.js

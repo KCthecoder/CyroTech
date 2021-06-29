@@ -1,0 +1,538 @@
+html, body {
+  height: 100%;
+  background-color: #bbbbbb;
+  color: #020202;
+}
+
+.blue1 {
+  background-color: #213e4a;
+}
+
+.blue2 {
+  background-color: #355664;
+}
+
+.blue3 {
+  background-color: #2a8ea6;
+}
+
+.selected {
+  background-color: #2a8ea6;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.disabled {
+    -webkit-filter: grayscale(100%);
+}
+
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+.inline {
+  display: inline;
+}
+
+.modal-body {
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+#dec-area {
+  min-height: 150px;
+  width: 98%;
+}
+
+.modal-footer button {
+    float: right;
+}
+
+
+.status {
+    padding-top: 4px;
+    min-height: 50px;
+}
+
+.start {
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+
+.palette {
+    float: right;
+}
+
+.tab-icon {
+    width: 100px !important;
+    padding: 0px;
+    padding-left: 64px;
+    background-repeat: no-repeat !important;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    border: solid #ddd 1px;
+    display: block;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.tooltip-inner {
+   font-size: 15px !important;
+   width: 400px !important;
+}
+
+.actions {
+    text-align: right !important;
+}
+
+.file-select {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin: 0px;
+  cursor: pointer;
+  display: inline-block;
+  background-position: center;
+  border: 0;
+}
+
+button.icon {
+    text-align: left;
+    color: white;
+    width: 200px;
+    padding-left: 64px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    display: block;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+
+button.icon:hover {
+  color: white;
+  background-color: #5b8bb3;
+}
+
+
+.modal-footer button {
+  color: black;
+  margin-left: 5px;
+}
+
+
+.icon-ok {
+  color: black;
+  background: url(../images/ico-ok.png)
+}
+
+.icon-cancel {
+  background: url(../images/ico-cancel.png)
+}
+
+button.icon-cancel:hover {
+    background-color: #a0a0a0;
+}
+
+.icon-encrypt {
+  background: url(../images/ico-encrypt.png)
+}
+
+button.icon-encrypt:hover {
+  background-color: #0074ef;
+}
+
+.icon-decrypt {
+  background: url(../images/ico-decrypt.png)
+}
+
+button.icon-decrypt:hover {
+  background-color: #62b326;
+}
+
+.icon-download {
+  background: url(../images/ico-download.png)
+}
+
+button.icon-download:hover {
+  background-color: #b4c300;
+}
+
+.icon-add-message {
+  background: url(../images/ico-add-message.png)
+}
+
+button.icon-add-message:hover {
+  background-color: #ffc501;
+}
+
+.icon-add-folder {
+  background: url(../images/ico-add-folder.png)
+}
+
+button.icon-add-folder:hover {
+  background-color: #00a5a4;
+}
+
+button.open-safe {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+
+.icon-add-file {
+  background: url(../images/ico-add-file.png)
+}
+
+.icon-open-safe {
+  background: url(../images/ico-decrypt.png)
+}
+
+button.icon-open-safe:hover {
+  background-color: #62b326;
+}
+
+.icon-close-safe {
+  background: url(../images/ico-download.png)
+}
+
+button.icon-add-file:hover {
+  background-color: #ff4b3a;
+}
+
+.icon-add-content {
+  background: url(../images/ico-add-content.png)
+}
+
+button.icon-add-content:hover {
+  background-color: #e31c4b;
+}
+
+.icon-gmail {
+  background: url(../images/ico-gmail.png)
+}
+
+.icon-save-file {
+  background: url(../images/ico-save-as.png)
+}
+
+.icon-save-folder {
+  background: url(../images/ico-saveall.png)
+}
+
+.icon-delete {
+  background: url(../images/ico-delete.png)
+}
+
+button.icon-delete:hover {
+  background-color: #ca083c;
+}
+
+.icon-copy {
+  background: url(../images/ico-copy.png)
+}
+
+.icon-paste {
+  background: url(../images/ico-paste.png)
+}
+
+.icon-share {
+  background: url(../images/ico-link.png)
+}
+
+button.icon-share p {
+    position: absolute;
+    top: 14px;
+}
+
+button.icon-share:hover {
+    background-color: #712b00;
+}
+
+#cloud-expire {
+  position: relative;
+  top: 16px;
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+}
+
+#cloud-expire:hover {
+  color: white;
+  background-color: #712b00;
+}
+
+button.icon-save-file:hover {
+    background-color: #8700b2;
+}
+
+button.icon-save-folder:hover {
+    background-color: #8700b2;
+}
+
+button.icon-gmail:hover {
+    background-color: #ff0000;
+}
+
+.zeroclipboard-is-hover, button.icon-copy:hover {
+    background-color: #5010b9;
+}
+
+button.icon-ok:hover {
+    background-color: #008a00;
+}
+
+.composer {
+  position: absolute;
+  left: 0px;
+  right:0px;
+  top:  0px;
+  bottom: 64px;
+  overflow: hidden;
+}
+
+.textarea {
+  position: absolute;
+  display: block;
+  padding: 0;
+  border: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.files {
+  position: absolute;
+  top: 50%;
+  margin-top: 28px;
+  bottom: 0px;
+  left:   0px;
+  right:  0px;
+  overflow-y: auto;
+}
+
+.files-list {
+  background-color: #355664;
+  padding: 10px;
+}
+
+.toolbar {
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 64px;
+  margin-right: 0px;
+}
+
+.toolbar-left {
+  float: left;
+}
+
+.toolbar-right {
+  float: right;
+}
+
+.toolbar .icon {
+    display: inline-block;
+}
+
+.textarea textarea {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+.filecheck {
+  min-width: 32px;
+  width: 32px;
+  background: url(../images/checkbox_unchecked_icon32.png) no-repeat;
+}
+
+.checked {
+  background: url(../images/checkbox_checked_icon32.png) no-repeat;
+}
+
+.filedel {
+  min-width: 32px;
+  width: 32px;
+  background: url(../images/table-del-icon32.png) no-repeat center;
+}
+
+.filedelall {
+  min-width: 32px;
+  width: 32px;
+  background: url(../images/table-del-icon32.png) no-repeat center;
+  background-color: #FF7F3F;
+}
+
+.filesave {
+  min-width: 32px;
+  width: 32px;
+  background: url(../images/table-save-icon32.png) no-repeat center;
+}
+
+.filesaveall {
+  min-width: 32px;
+  width: 32px;
+  background: url(../images/table-saveall-icon32.png) no-repeat center;
+  background-color: #FF7F3F;
+}
+
+tr {
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #00b3ff;
+}
+
+th {
+  background-color: #FF7F3F;
+}
+
+h2.file-info {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.save-panel {
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.save-panel .save-file,
+.save-panel .save-folder {
+  position: absolute;
+  width: 200px;
+  height: 64px;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  margin-top: -21px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  background-color: #00b4ff;
+}
+
+.editor-panel {
+  position: absolute;
+  padding: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.main-hint {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  z-index: 1050;
+  width: 640px;
+  margin-left: -320px;
+  color: #000;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 150%;
+}
+
+textarea.editor {
+  font-size: 20px;
+  padding: 8px;
+  background-color: #fff;
+  margin: 0;
+  padding: 2px;
+}
+
+
+
+textarea.copy-content {
+  width: 100%;
+  height: 16px;
+  max-height: 300px;
+  color: #0F0;
+  background-color: #000;
+  border-color: #777;
+  padding: 0px;
+  margin-bottom: 70px;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+}
+
+.eye {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+
+.password-progress {
+    width: 250px;
+    height: 18px;
+}
+
+.close {
+    font-size: 30px;
+}
+
+.play-button {
+    height: 40px;
+    width: 65px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: relative;
+    top: -160px;
+    left: 220px;
+    margin-left: -33px;
+    cursor: pointer;
+}
+
+.intro-dlg {
+    top: 10%;
+    width: 60%;
+    margin-left: -30%;
+}
+
+
+.intro-body {
+  padding-top: 0px;
+}
+
+.play-button:hover {
+    background-color: rgba(0, 173, 239, 0.9);
+}
+
+.play-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10.5px;
+    left: 24px;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 9.5px 0 9.5px 17px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+

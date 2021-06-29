@@ -1,0 +1,212 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	
+	<script src="javascripts/zxcvbn.js" type="text/javascript" async=""></script>
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+	<script>if (top.location != location)
+	 {
+   	 	top.location.href = document.location.href ;
+	 }	
+	</script>
+	<title>Encrypt and decrypt text online</title>
+	<meta name="viewport"><link href="stylesheets/bootstrap.min1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/bootstrap-responsive.min1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/desktop1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/contactable1a18.css?2.3" rel="stylesheet">
+	<link href="stylesheets/site1a18.css?2.3" rel="stylesheet">
+	<meta name="description" content="Encipher.It is a simple way to protect your sensitive data. You can encrypt text messages, E-mail and files by AES encription with password">
+	<script>var _gaq = _gaq || [];
+	 _gaq.push(['_setAccount', 'UA-17946320-4']);
+	 _gaq.push(['_trackPageview']);
+		(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	 })();
+	</script>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	
+		<body data-spy="scroll" data-target=".bs-docs-sidebar">
+			
+		<div class="span7">
+			<div class="content-text"><h2>Encrypt your text online</h2>
+				<div id="desktop">
+					<!--<Main>control</Main>-->
+					<div class="encipher-control">
+						<div class="composer">
+							<div class="textarea" style="bottom: 0px;">
+								<div class="save-panel" style="display: none;"><h2 class="file-info">File: SECRET.txt, 0 bytes (text/plain)</h2>
+									<button class="save-file icon icon-save-file" style="display: none;">Save file</button>
+									<button class="save-folder icon icon-save-folder" style="display: none;">Save all</button>
+								</div>
+								<div class="editor-panel" style="display: block;">
+									<textarea autofocus="true" class="editor"></textarea>
+									<div class="main-hint" style="display: none;">
+										<p>Type a message here to encrypt it</p>
+										<p>Paste the encrypted text or link here to decrypt it</p>
+									</div>
+								</div>
+							</div>
+							<div class="files" style="display: none;">
+										<table class="table table-hover"><thead class="files-header"></thead>
+											<tbody class="files-list">
+												<tr class="selected">
+												<td class="filecheck checked">&nbsp;</td>
+												<td class="filename">SECRET.txt</td><td class="filesize">0 bytes</td>
+												<td class="filetype">text/plain</td>
+											    </tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="toolbar">
+									<div class="toolbar-right">
+										<div class="btn-group dropup">
+											
+										</div>
+										<button class="encrypt icon icon-encrypt disabled" disabled="disabled">Encipher It</button>
+										<button style="display: none;" class="decrypt icon icon-decrypt">Decipher It</button>
+									</div>
+								</div>
+							</div><!--<Templates></Templates>-->
+							<div id="encipher-dlg" style="display: none;" data-backdrop="static" class="encipher-dlg modal">
+								<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3>Enter the encryption password</h3>
+								</div>
+								<div class="modal-body"><form class="form-horizontal passphrase">
+									<div class="control-group"><label for="password" class="control-label">Encryption Password</label>
+										<div class="controls">
+											<div class="input-append"><input type="text" class="password password-open" style="display: none;">
+												<input id="password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span>
+											</div>
+										</div>
+									</div>
+									<div class="control-group"><div class="controls">
+										<div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit
+										</div>
+									</div>
+								</div>
+								<div class="controls password-status">Effective key length</div>
+							</div>
+							
+						</form>
+					</div>
+					<div class="modal-footer"><button class="icon icon-encrypt do-encrypt" style="display: none;">Encipher It</button>
+						<button class="icon icon-share do-share"><p>Share online for</p>
+							<select id="cloud-expire">
+							<option value="0">forever</option>
+							<option value="31557600" selected="yes">1 year</option>
+							<option value="2629800">1 month</option>
+							<option value="604800">1 week</option>
+							<option value="86400">1 day</option>
+							<option value="3600">1 hour</option>
+							<option value="300">5 min</option>
+							</select>
+						</button>
+						<button class="icon icon-save-file do-save">Save To File</button>
+						<input type="file" style="display: none;" id="save-enc-file" name="save-enc-file" nwsaveas="true">
+					</div>
+				</div>
+				<div style="display: none;" data-backdrop="static" class="decipher-dlg modal"><div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Decipher It</h3>
+				</div>
+				<div class="modal-body">
+					<div id="tab-file" class="form-horizontal tab-pane">
+						<div class="control-group"><label for="dec-password" class="control-label">Enter the decryption password</label>
+							<div class="controls">
+								<div class="input-append"><input type="text" class="password password-open" style="display: none;"><input id="dec-password" type="password" class="password"><span rel="tooltip" title="" class="add-on" data-original-title="Show and hide password"><span class="eye icon-eye-close"></span></span>
+								</div>
+							</div>
+						</div>
+						<div class="control-group"><div class="controls">
+							<div class="progress password-progress"><div class="bar bar-info password-bar" style="width: 20%;">0 bit
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer"><button class="right decipher-button icon icon-decrypt">Decrypt</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button>
+		</div>
+	</div>
+	<div style="display: none;" class="modal-dlg modal">
+		<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title"></h3>
+		</div>
+		<div class="modal-body"><p class="modal-content"></p>
+		</div>
+		<div class="modal-footer"><button class="icon icon-ok btn-success ok-button">OK</button><button class="icon icon-cancel btn-cancel cancel-button">Cancel</button>
+		</div>
+	</div>
+	<div style="display: none;" class="progress-dlg modal">
+		<div class="modal-header"><button type="button" data-dismiss="modal" aria-hidden="true" class="close x-close-button">×</button><h3 class="modal-title"></h3></div>
+		<div class="modal-body"><p class="modal-content"></p>
+			<div class="progress">
+				<div id="encrypt-progress" class="bar bar-info"></div>
+				<div id="upload-progress" class="bar bar-success"></div>
+			</div>
+		</div>
+		<div class="modal-footer"><button class="icon icon-cancel cancel-button">Cancel</button></div>
+	</div>
+	<div style="display: none;" class="copy-dlg modal in"; aria-hidden="false">
+		<div class="modal-header">
+			<button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button><h3 class="modal-title">Enciphered!</h3>
+		</div>
+		<div class="modal-body">
+			<textarea readonly="readonly" class="copy-content" style="height: 200px;"></textarea>
+		</div>
+		<div id="copy-container" class="modal-footer">
+			<button id="copy-button" class="inline copy-button icon icon-copy">Copy the Code</button>
+		<div style="position: absolute; left: 492px; top: 8px; width: 200px; height: 64px; z-index: 99;">
+			
+		</div>
+	</div>
+			
+			
+		</div>
+
+	</div>
+</div>
+</div>
+	<!-- Client config-->
+	<script type="text/javascript" src="javascripts/settings1a18.js?2.3"></script>
+	<!-- 3d party-->
+	<script type="text/javascript" src="javascripts/jquery.min1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/underscore.min1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/backbone.min1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/global1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/bootstrap.min1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/jquery.validate.pack1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/jquery.contactable1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/socialite1a18.js?2.3"></script>
+	<!-- Flash used for access to clipboard-->
+	<script type="text/javascript" src="javascripts/flashdetect.min1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/ZeroClipboard.min1a18.js?2.3"></script>
+	<!-- Encipher 1.x code-->
+	<script type="text/javascript" src="javascripts/encipher1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/AES1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/sha11a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/pbkdf21a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/base641a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/utf81a18.js?2.3"></script>
+	<!-- Encipher 2.x code-->
+	<script type="text/javascript" src="javascripts/password1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/zxcvbn-async1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/global1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/models1a18.js?2.3"></script>
+	<script type="text/javascript" src="javascripts/views1a18.js?2.3"></script>
+	<!-- Order form-->
+	<script type="text/javascript" src="javascripts/order1a18.js?2.3"></script>
+	<script>$('#mainmenu li').removeClass('active');
+	$('#mainmenu li a[href="' + document.location.pathname + '"]').parent().addClass('active');
+	$('.social-buttons').one("click", function() {
+    Socialite.load($(this)[0]);
+    $(this).tooltip('destroy');
+	});
+	$('.play-button').click( function() {
+    $('.play-button').remove();
+    $('#video').replaceWith('<iframe width="440" height="280" src="https://www.youtube.com/embed/ItTkczs_cRA" frameborder="0" allowfullscreen></iframe>');
+    $('.tooltip').remove();
+});</script>
+
+</body>
+</html>
